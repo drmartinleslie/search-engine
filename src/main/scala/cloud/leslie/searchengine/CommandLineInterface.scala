@@ -52,10 +52,10 @@ object InterfaceStrings {
       |Legal commands:
       |
       |help
-      |     Shows this help text.
+      |     Show this help text.
       |
       |exit
-      |     Exits Search Engine.
+      |     Exit Search Engine.
       |
       |index <id> <keyword1> <keyword2> ...
       |     Store a document id (positive integer) and a list of keywords (alphanumeric). For example 'index 1 soup tomato cream salt'. This will replace any previous document with the same id.
@@ -70,7 +70,7 @@ object InterfaceStrings {
       |     Query for ids of all documents with either keyword. For example 'query tomato | soup'.
       |
       |query <expression1> <operator> <expression2>
-      |     Queries with & and | can include nested & or | expressions. Nested queries must have parentheses but the overall query and literal keywords should not. For example 'query (butter | potato) & salt' or 'query (butter & potato) | (chicken & salt)'.
+      |     Queries with & and | can include nested & or | expressions. Nested queries must have parentheses but the overall query and literal keywords must not. For example 'query (butter | potato) & salt' or 'query (butter & potato) | (chicken & salt)'.
     """.stripMargin
 
 }

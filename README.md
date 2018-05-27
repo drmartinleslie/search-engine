@@ -20,4 +20,4 @@ Clone this repo and run `sbt run`. You can also run `sbt assembly` and then use 
 
 `query <keyword1> | <keyword2>`: Query for ids of all documents with either keyword. For example 'query tomato | soup'.
 
-`query expression1 operator expression2`: Queries with & and | can include nested & or | expressions. Nested queries must have parentheses but the overall query and literal keywords should not. For example 'query (butter | potato) & salt' or 'query (butter & potato) | (chicken & salt)'.
+`query expression1 operator expression2`: Queries with & and | can include nested & or | expressions. Nested queries must have parentheses but the overall query and literal keywords must not. For example 'query (butter | potato) & salt' or 'query (butter & potato) | (chicken & salt)'.
