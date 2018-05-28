@@ -12,7 +12,7 @@ Clone this repo and run `sbt run`. You can also run `sbt assembly` and then use 
 
 `exit`: Exit Search Engine.
 
-`index <id> <keyword1> <keyword2> ...`: Store a document id (positive integer) and a list of keywords (alphanumeric). For example 'index 1 soup tomato cream salt'. This will replace any previous document with the same id.
+`index <id> <keyword1> <keyword2> ...`: Store a document id (positive integer) and a list of keywords (case sensitive alphanumeric). For example 'index 1 soup tomato cream salt'. This will replace any previous document with the same id.
 
 `query <keyword>`: Query for ids of all documents with a given keyword. For example 'query tomato'.
 
